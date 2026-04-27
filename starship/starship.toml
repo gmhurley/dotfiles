@@ -46,6 +46,7 @@ style = "bg:color_bg2 fg:color_white"
 format = "[$path]($style)"
 truncation_length = 0
 truncation_symbol = ""
+truncate_to_repo = false
 
 [git_branch]
 symbol = ""
@@ -90,3 +91,4 @@ style_root = "bg:color_bg1 fg:color_red"
 style = "bg:color_bg4 fg:#5FA04E"
 format = '[$symbol($version)]($style)'
 symbol = " "
+
